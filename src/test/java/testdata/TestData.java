@@ -1,10 +1,13 @@
 package testdata;
 
+import com.github.javafaker.Faker;
 import utils.RandomUtils;
 
 import static utils.RandomUtils.*;
 
 public class TestData {
+
+    Faker faker = new Faker();
 
 
     public static String firstName = "Pavel";
@@ -26,22 +29,25 @@ public class TestData {
     public static String userCity = "Karnal";
 
 
-    public static String userfirstNameFaker = getRandomFirstName();
-    public static String userlastNameFaker = getRandomLastName();
-    public static String userEmailFaker = getRandomEmail();
-    public static String userPhoneFaker = getRandomPhone();
-    public static String userGenderFaker = getRandomGender();
-    public static String userDayOfBirthFaker = getRandomDay();
-    public static String userMonthOfBirthFaker = getRandomMonth();
-    public static String userYearOfBirthFaker = getRandomYear();
-    public static String userHobbiesFaker = getRandomHobbies();
-    public static String userPermanentAddressFaker = getRandomPermanentAddress();
-    public static String userCurrentAdressFaker = getRandomPermanentAddress();
-    public static String userStateFaker = getRandomState();
-    public static String userCityFaker = getRandomCity(userStateFaker);
-    public static String userSendKeyFaker = getSendRandomKey();
-    public static String userSubjectFaker = getRandomKey(userSendKeyFaker);
-    public static String userPictureFaker = getRandomPicture();
+    public String userFirstNameFaker2() {
+        return getRandomFirstName();
+    }
+    public  String userFirstNameFaker = getRandomFirstName();
+    public  String userlastNameFaker = getRandomLastName();
+    public  String userEmailFaker = getRandomEmail();
+    public  String userPhoneFaker = getRandomPhone();
+    public  String userGenderFaker = getRandomGender();
+    public  String userDayOfBirthFaker = getRandomDay();
+    public  String userMonthOfBirthFaker = getRandomMonth();
+    public  String userYearOfBirthFaker = getRandomYear();
+    public  String userHobbiesFaker = getRandomHobbies();
+    public  String userPermanentAddressFaker = getRandomPermanentAddress();
+    public  String userCurrentAdressFaker = getRandomPermanentAddress();
+    public  String userStateFaker = getRandomState();
+    public  String userCityFaker = getRandomCity(userStateFaker);
+    public  String userSendKeyFaker = getSendRandomKey();
+    public  String userSubjectFaker = getRandomKey(userSendKeyFaker);
+    public  String userPictureFaker = getRandomPicture();
 
 
 }
