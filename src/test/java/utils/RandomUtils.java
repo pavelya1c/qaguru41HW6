@@ -54,7 +54,7 @@ public class RandomUtils {
     }
 
     public static String getRandomDay() {
-       return faker.number().numberBetween(1, 30) + "";
+       return faker.number().numberBetween(1, 29) + "";
     }
 
     public static String getRandomYear() {

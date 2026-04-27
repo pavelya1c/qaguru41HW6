@@ -1,14 +1,10 @@
 package testdata;
 
-import com.github.javafaker.Faker;
-import utils.RandomUtils;
+
 
 import static utils.RandomUtils.*;
 
 public class TestData {
-
-    Faker faker = new Faker();
-
 
     public static String firstName = "Pavel";
     public static String lastName = "Yatmanov";
@@ -28,10 +24,6 @@ public class TestData {
     public static String userState = "Haryana";
     public static String userCity = "Karnal";
 
-
-    public String userFirstNameFaker2() {
-        return getRandomFirstName();
-    }
     public  String userFirstNameFaker = getRandomFirstName();
     public  String userlastNameFaker = getRandomLastName();
     public  String userEmailFaker = getRandomEmail();
