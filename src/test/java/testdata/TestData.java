@@ -34,12 +34,11 @@ public class TestData {
     public  String userYearOfBirthFaker = getRandomYear();
     public  String userHobbiesFaker = getRandomHobbies();
     public  String userPermanentAddressFaker = getRandomPermanentAddress();
-    public  String userCurrentAdressFaker = getRandomPermanentAddress();
+    public  String userCurrentAdressFaker = getRandomCurrentAddress();
     public  String userStateFaker = getRandomState();
     public  String userCityFaker = getRandomCity(userStateFaker);
     public  String userSendKeyFaker = getSendRandomKey();
     public  String userSubjectFaker = getRandomKey(userSendKeyFaker);
     public  String userPictureFaker = getRandomPicture();
-
 
 }

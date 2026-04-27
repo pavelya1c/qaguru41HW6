@@ -39,8 +39,6 @@ public class TestBoxHW6 extends TestBase {
                 .checkFormFieldHardForm("Picture", testData.userPictureFaker)
                 .checkFormFieldHardForm("Address", testData.userCurrentAdressFaker)
                 .checkFormFieldHardForm("State and City", ((testData.userStateFaker + " " + testData.userCityFaker)));
-
-
     }
 
 
@@ -57,8 +55,6 @@ public class TestBoxHW6 extends TestBase {
                 .checkFormFieldEasyForm(testData.userEmailFaker)
                 .checkFormFieldEasyForm(testData.userCurrentAdressFaker)
                 .checkFormFieldEasyForm(testData.userPermanentAddressFaker);
-
-
     }
 
     @Test
@@ -84,8 +80,6 @@ public class TestBoxHW6 extends TestBase {
                 .submitButtonClick()
                 .checkFormFieldEasyForm(testData.userFirstNameFaker + " " + testData.userlastNameFaker)
                 .checkFormFieldEasyForm(testData.userEmailFaker);
-
-
     }
 
     //НЕГАТИВНЫЕ ТЕСТЫ
